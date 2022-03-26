@@ -19,7 +19,7 @@ namespace CarLotSimulator
             Toyota.Year = 2003;
             Toyota.EngineNoise = "quiet";
             Toyota.HonkNoise = "high pitch";
-            Toyota.IsDriveable = "very easy to handle";
+            Toyota.IsDriveable = true;
             Toyota.MakeEngineNoise();
             Toyota.MakeHonkNoise();
 
@@ -31,7 +31,7 @@ namespace CarLotSimulator
             Honda.Year = 2008;
             Honda.EngineNoise = "super quiet";
             Honda.HonkNoise = "high pitch";
-            Honda.IsDriveable = "fairly easy to handle";
+            Honda.IsDriveable = true;
             Honda.MakeEngineNoise();
             Honda.MakeHonkNoise();
 
@@ -43,7 +43,7 @@ namespace CarLotSimulator
             Subaru.Year = 2015;
             Subaru.EngineNoise = "far too loud";
             Subaru.HonkNoise = "super loud";
-            Subaru.IsDriveable = "way too powerful to handle it with ease";
+            Subaru.IsDriveable = true;
             Subaru.MakeEngineNoise();
             Subaru.MakeHonkNoise();
 
@@ -55,7 +55,7 @@ namespace CarLotSimulator
             Ferrari.Year = 2022;
             Ferrari.EngineNoise = "ear drum shattering loud";
             Ferrari.HonkNoise = "high pitch";
-            Ferrari.IsDriveable = "not driveable for the average person because it has far too much horsepower";
+            Ferrari.IsDriveable = true;
             Ferrari.MakeEngineNoise();
             Ferrari.MakeHonkNoise();
 
