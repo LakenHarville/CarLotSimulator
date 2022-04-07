@@ -4,8 +4,10 @@ using System.Text;
 
 namespace CarLotSimulator
 {
-    class Car
+    public class Car
     {
+       
+
         public int Year { get; set; }
         public string Model { get; set; }
         public string Make { get; set; }
@@ -15,7 +17,7 @@ namespace CarLotSimulator
 
         public Car()
         {
-
+            CarLot.numberOfCars++; 
         }
 
         public Car(int year, string model, string make, string enginenoise, string honknoise, bool IsDriveable = false)

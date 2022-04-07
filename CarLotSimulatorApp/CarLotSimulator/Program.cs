@@ -59,6 +59,10 @@ namespace CarLotSimulator
             Ferrari.MakeEngineNoise();
             Ferrari.MakeHonkNoise();
 
+            Console.WriteLine("-------------------------");
+
+            Console.WriteLine($"Cars created: {CarLot.numberOfCars}");
+
             //Now that the Car class is created we can instanciate 3 new cars
 
             //Set the properties for each of the cars
